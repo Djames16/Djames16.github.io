@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-body {
+body  {
     font-family: 'Itim', cursive;
     background-color: black;
 
@@ -10,5 +10,21 @@ h1,h2,h3,h4,h5,h6,p,li {
     font-style: italic;
 }
 nav {
-    background-color: #ffd700; 
+    background-color: #ffd700; text-align: center;
+}
+
+nav>a:hover {
+    background-color: rgb(255, 255, 0);
+}
+
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+a {
+    color:rgb(255, 255, 0)
 }

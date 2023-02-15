@@ -14,4 +14,34 @@
         <a href="Contact.html">Contacts</a>
         <a href="https://docs.google.com/document/d/1Lxrt8Ptv1m3M0pOWpmw2FHTGkyz4QnDF79aRjHe80Bw/edit?usp=sharing">Resume</a>
         </nav>
+        <h1>Welcome to the contacts page</h1>
+        <p>For any business inquires please complete this form</form></p>
+        <form
+        action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+        method="post"
+       >
+    <label>Enter your full name here:</label>
+    <br>
+    <input placeholder="Daeon James" name="full_name">
+    <br>
+    <label>Enter your email here:</label>
+    <br>
+    <input placeholder="Djames@brooklynsteamcenter.org" name="email">
+    <br>
+    <label>What is the best day to contact you:</label>
+    <br>
+    <input type="Date" name="Date">
+    <br>
+    <label>What is the best contact time:</label>
+    <br>
+    <input type="time" name="Time">
+    <br>
+    <label>Comments:</label>
+    <br>
+    <textarea name="Comments"></textarea>
+    <br>
+    <input type="Submit">
+    <input type="Reset">
+    <input name="send-to" value="djames@brooklynsteamcenter.org" hidden>
+</form>
 </html>

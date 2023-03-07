@@ -3,6 +3,8 @@
 body  {
     font-family: 'Itim', cursive;
     background-color: black;
+    max-width: 500px;
+    margin:auto;
 
 }
 h1,h2 {

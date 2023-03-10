@@ -3,14 +3,13 @@
 body  {
     font-family: 'Itim', cursive;
     background-color: black;
-    max-width: 500px;
-    margin:auto;
-
+    text-align: center;
 }
-h1,h2 {
+h1,h2{
     text-decoration: underline; 
     font-style: italic;
 }
+p{text-align: center;}
 nav {
     background-color: #ffd700; text-align: center;
 }
@@ -38,3 +37,17 @@ a,h1,h3,p,label{
  {
    #Photo{width:100%}
 }
+
+main{max-width: 8000px;
+    margin: auto;
+  }
+  input,textarea {
+    background-color:black;
+    color: #ffd700;
+    border:1px solid #ccc;
+    border-radius: 4px;
+  
+  }
+  ::placeholder{text-align: center;
+    background-color:black;
+    color: #ffd700;}
